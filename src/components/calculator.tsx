@@ -11,8 +11,11 @@ const Calculator = () => {
     const [totalSollant, setTotalSollant] = useState<number>(0);
     const [totalLucant, setTotalLucant] = useState<number>(0);
     // amounts that will be used for the siege
-    const [pillageHold, setPillageHold] = useState<number>(0);
-    const [intervalReward, setIntervalReward] = useState<number>(0);
+    const [pillageSollant, setPillageSollant] = useState<number>(0);
+    const [pillageLucant, setPillageLucant] = useState<number>(0);
+    const [intervalSollant, setIntervalSollae] = useState<number>(0);
+    const [intervalLucant, setIntervalLucant] = useState<number>(0);
+    // amount that will be rewarded at the end of the siege
     const [rewardSollant, setRewardSollant] = useState<number>(0);
     const [rewardLucant, setRewardLucant] = useState<number>(0);
 
