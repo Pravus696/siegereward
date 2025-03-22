@@ -1,20 +1,85 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
-const Calculator = () => {
+export default function Calculator() {
     // Declare state variables
     // tax totals from each city
-    const [stoneguardSollant, setStoneguardSollant] = useState<number>(0);
-    const [stoneguardLucant, setStoneguardLucant] = useState<number>(0);
-    const [vientaSollant, setVientaSollant] = useState<number>(0);
-    const [vientaLucant, setVientaLucant] = useState<number>(0);
+    const [stoneguardSollant, setStoneguardSollant] = useState(0);
+    const [stoneguardLucent, setStoneguardLucent] = useState(0);
+    // const [vientaSollant, setVientaSollant] = useState(0);
+    // const [vientaLucent, setVientaLucent] = useState(0);
     // combined tax totals
-    const [totalSollant, setTotalSollant] = useState<number>(0);
-    const [totalLucant, setTotalLucant] = useState<number>(0);
+    const [totalSollant, setTotalSollant] = useState(0);
+    const [totalLucent, setTotalLucent] = useState(0);
     // amounts that will be used for the siege
-    const [pillageHold, setPillageHold] = useState<number>(0);
-    const [intervalReward, setIntervalReward] = useState<number>(0);
-    const [rewardSollant, setRewardSollant] = useState<number>(0);
-    const [rewardLucant, setRewardLucant] = useState<number>(0);
+    const [rewardSollant, setRewardSollant] = useState(0);
+    const [rewardLucent, setRewardLucent] = useState(0);
+    // vault and pillage amounts
+    const [vaultSollant, setVaultSollant] = useState(0);
+    const [vaultLucent, setVaultLucent] = useState(0);
+    const [pillageSollant, setPillageSollant] = useState(0);
+    const [pillageLucent, setPillageLucent] = useState(0);
+    const [intervalSollant, setIntervalSollae] = useState(0);
+    const [intervalLucent, setIntervalLucent] = useState(0);
+    
 
+    // Calculate totals
+    const calculateRewards = () => {
+        const rSollant = totalSollant * 0.4;
+        const rewardLucent = totalLucent * 0.4;
+        setRewardSollant(rSollant);
+        setRewardLucent(rewardLucent);
+    }
+    // calculate vault totals
+    const calculateVault = () => {
+        const vSollant = totalSollant * 0.5;
+        const vLucent = totalLucent * 0.5;
+        setVaultSollant(vSollant);
+        setVaultLucent(vLucent);
+    }
+    // calculate pillage totals
+    const calculatePillage = () => {
+        const pSollant = totalSollant * 0.1;
+        const pLucent = totalLucent * 0.1;
+        setPillageSollant(pSollant);
+        setPillageLucent(pLucent);
+    }
+    const calculateInterval = () => {
+        const iSollant = pillageSollant / 7;
+        const iLucent = pillageLucent / 7;
+        setIntervalSollae(iSollant);
+        setIntervalLucent(iLucent);
+    }
 
+    return (
+        <>
+        <div>
+            <h2>Pillage Calculator</h2>
+            <label>
+                Stoneguard Sollant Tax Total:
+                <input type="number" value={stoneguardSollant} onChange={(e) => setStoneguardSollant(Number(e.target.value))} />
+            </label>
+            <label>
+                Stoneguard Lucent Tax Total:
+                <input type="number" value={stoneguardLucent} onChange={(e) => setStoneguardLucent(Number(e.target.value))} />
+            </label>
+            <button onClick={() => {
+                setTotalSollant(stoneguardSollant);
+                setTotalLucent(stoneguardLucent);
+                calculateRewards();
+                calculateVault();
+                calculatePillage();
+                calculateInterval();
+            }}>Calculate</button>
+            <h3>Results</h3>
+            <p>Total Available Sollant: {rewardSollant}</p>
+            <p>Total Available Lucent: {rewardLucent}</p>
+            <p>Vault Sollant: {vaultSollant}</p>
+            <p>Vault Lucent: {vaultLucent}</p>
+            <p>Pillage Sollant: {pillageSollant}</p>
+            <p>Pillage Lucent: {pillageLucent}</p>
+            <p>Interval Sollant: {intervalSollant}</p>
+            <p>Interval Lucent: {intervalLucent}</p>
+        </div>
+        </>
+    );
 }
