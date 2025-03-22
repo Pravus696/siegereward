@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import title from './components/title';
-import calculator from './components/calculator';
-import guild from './components/guild';
+import React from 'react';
+//  { useState } from 'react';
+// import title from './components/title';
+// import guild from './components/guild';
 import "./App.css";
 import Calculator from './components/calculator';
 
@@ -41,12 +41,14 @@ const App = () => {
             <button>By Guild</button> <button>By Member</button>
             <p>Each Guild member should receive: ${rewardSollant}</p>
             <p>Each Guild member should receive: ${rewardLucant}</p> */}
-        </main><footer>
+        </main>
+        <footer>
             <p>
                 This page was created by Pravus. It is not affiliated with the official
                 game in any way.
             </p>
-        </footer></>
+        </footer>
+        </>
     );    
 }
 

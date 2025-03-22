@@ -25,27 +25,19 @@ export default function Calculator() {
     // Calculate totals
     const calculateRewards = () => {
         const rSollant = totalSollant * 0.4;
-        const rewardLucent = totalLucent * 0.4;
+        const rLucent = totalLucent * 0.4;
         setRewardSollant(rSollant);
-        setRewardLucent(rewardLucent);
-    }
-    // calculate vault totals
-    const calculateVault = () => {
-        const vSollant = totalSollant * 0.5;
-        const vLucent = totalLucent * 0.5;
+        setRewardLucent(rLucent);
+        const vSollant = rSollant * 0.5;
+        const vLucent = rLucent * 0.5;
         setVaultSollant(vSollant);
         setVaultLucent(vLucent);
-    }
-    // calculate pillage totals
-    const calculatePillage = () => {
-        const pSollant = totalSollant * 0.1;
-        const pLucent = totalLucent * 0.1;
+        const pSollant = rSollant * 0.1;
+        const pLucent = rLucent * 0.1;
         setPillageSollant(pSollant);
         setPillageLucent(pLucent);
-    }
-    const calculateInterval = () => {
-        const iSollant = pillageSollant / 7;
-        const iLucent = pillageLucent / 7;
+        const iSollant = parseFloat((pSollant / 7).toFixed(2));
+        const iLucent = parseFloat((pLucent / 7).toFixed(2));
         setIntervalSollae(iSollant);
         setIntervalLucent(iLucent);
     }
@@ -53,7 +45,6 @@ export default function Calculator() {
     return (
         <>
         <div>
-            <h2>Pillage Calculator</h2>
             <label>
                 Stoneguard Sollant Tax Total:
                 <input type="number" value={stoneguardSollant} onChange={(e) => setStoneguardSollant(Number(e.target.value))} />
@@ -66,9 +57,6 @@ export default function Calculator() {
                 setTotalSollant(stoneguardSollant);
                 setTotalLucent(stoneguardLucent);
                 calculateRewards();
-                calculateVault();
-                calculatePillage();
-                calculateInterval();
             }}>Calculate</button>
             <h3>Results</h3>
             <p>Total Available Sollant: {rewardSollant}</p>
