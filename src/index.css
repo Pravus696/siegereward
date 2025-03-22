@@ -1,0 +1,49 @@
+/* Dominant Colors:
+
+Dark Navy Blue/Indigo: #292F4A (Used for the background and shadows, creating depth)
+Warm Gold: #D2B26C (Used for the "Throne and Liberty" title, highlighting key elements)
+Light Gold/Beige: #E6D7B7 (Used for highlights on figures and details)
+Steel Gray: #808080 (Used for armor, swords, and some background elements)
+Light Gray/Off-White: #D9D9D9 (Used for highlights and brighter areas)
+Accent Colors:
+
+Deep Purple: #6A287E (Used for the magical effects on the left)
+Light Blue/Lavender: #B8B8D8 (Used for subtle highlights and atmospheric effects)
+Dark Brown: #4A3A2A (Used for shadows and depth in the figures)
+Notes:
+
+Lighting and Variation: The image has significant lighting and shading, leading to variations in these base colors. You'll find lighter and darker shades of each throughout the image.
+Atmospheric Perspective: The background colors tend to be desaturated and lighter, creating a sense of distance and depth.
+Metallic Sheen: The golds and grays often have a metallic sheen, which can be achieved through gradients and highlights in digital color palettes. */
+:root {
+    /* Dominant Colors */
+    --dark-navy-blue: #292F4A;
+    --warm-gold: #D2B26C;
+    --light-gold: #E6D7B7;
+    --steel-gray: #808080;
+    --light-gray: #D9D9D9;
+    /* Accent Colors */
+    --deep-purple: #6A287E;
+    --light-blue: #B8B8D8;
+    --dark-brown: #4A3A2A;
+}
+
+body {
+    background-color: var(--dark-navy-blue);
+    color: var(--light-gray);
+    font-family: Arial, sans-serif;
+}
+
+/* potential font families
+
+font-family: Georgia, serif;
+
+font-family: "Times New Roman", Times, serif;
+
+font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+
+font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, Times, serif;
+
+font-family: "Garamond", "Garamond Premier Pro", "EB Garamond", "Times New Roman", Times, serif;
+
+font-family: "Caslon", "Adobe Caslon Pro", "ITC Caslon", "Times New Roman", Times, serif;
