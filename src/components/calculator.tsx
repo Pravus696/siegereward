@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 export default function Calculator() {
     // Declare state variables
     // tax totals from each city
-    const [stoneguardSollant, setStoneguardSollant] = useState(0);
-    const [stoneguardLucent, setStoneguardLucent] = useState(0);
+    // const [stoneguardSollant, setStoneguardSollant] = useState(0);
+    // const [stoneguardLucent, setStoneguardLucent] = useState(0);
     // const [vientaSollant, setVientaSollant] = useState(0);
     // const [vientaLucent, setVientaLucent] = useState(0);
     // combined tax totals
@@ -24,20 +24,20 @@ export default function Calculator() {
 
     // Calculate totals
     const calculateRewards = () => {
-        const rSollant = totalSollant * 0.4;
-        const rLucent = totalLucent * 0.4;
+        const rSollant = Number((totalSollant * 0.4).toFixed(2));
+        const rLucent = Number((totalLucent * 0.4).toFixed(2));
         setRewardSollant(rSollant);
         setRewardLucent(rLucent);
-        const vSollant = rSollant * 0.5;
-        const vLucent = rLucent * 0.5;
+        const vSollant = Number((rSollant * 0.5).toFixed(2));
+        const vLucent = Number((rLucent * 0.5).toFixed(2));
         setVaultSollant(vSollant);
         setVaultLucent(vLucent);
-        const pSollant = rSollant * 0.1;
-        const pLucent = rLucent * 0.1;
+        const pSollant = Number((rSollant * 0.1).toFixed(2));
+        const pLucent = Number((rLucent * 0.1).toFixed(2));
         setPillageSollant(pSollant);
         setPillageLucent(pLucent);
-        const iSollant = parseFloat((pSollant / 7).toFixed(2));
-        const iLucent = parseFloat((pLucent / 7).toFixed(2));
+        const iSollant = Number((pSollant / 7).toFixed(2));
+        const iLucent = Number((pLucent / 7).toFixed(2));
         setIntervalSollae(iSollant);
         setIntervalLucent(iLucent);
     }
@@ -47,15 +47,13 @@ export default function Calculator() {
         <div>
             <label>
                 Stoneguard Sollant Tax Total:
-                <input type="number" value={stoneguardSollant} onChange={(e) => setStoneguardSollant(Number(e.target.value))} />
+                <input type="number" value={totalSollant} onChange={(e) => setTotalSollant(Number(e.target.value))} />
             </label>
             <label>
                 Stoneguard Lucent Tax Total:
-                <input type="number" value={stoneguardLucent} onChange={(e) => setStoneguardLucent(Number(e.target.value))} />
+                <input type="number" value={totalLucent} onChange={(e) => setTotalLucent(Number(e.target.value))} />
             </label>
             <button onClick={() => {
-                setTotalSollant(stoneguardSollant);
-                setTotalLucent(stoneguardLucent);
                 calculateRewards();
             }}>Calculate</button>
             <h3>Results</h3>
