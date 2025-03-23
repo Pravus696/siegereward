@@ -12,7 +12,7 @@ const App = () => {
         <h1>Siege Pillage Stone Reward Breakdown</h1>
         <p>
             This site is intended to allow you to enter the collected taxes on your
-            server and breakdown the ammount each pillage point will hold/reward at
+            server and breakdown the amount each pillage point will hold/reward at
             each interval.
         </p>
     </header>
