@@ -1,4 +1,4 @@
-What Is the Siege Reward System?
+# What Is the Siege Reward System?
 The Siege Reward system is tied to the castle sieges that take place in Throne and Liberty. A castle siege occurs when guilds and alliances fight for control over a specific castle in the game. The rewards from these sieges are based on a combination of taxes collected from players and how well a guild performs during the Siege.
 
 Tax and Loot Collection:
