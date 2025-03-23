@@ -1,50 +1,46 @@
 # What Is the Siege Reward System?
+
 The Siege Reward system is tied to the castle sieges that take place in Throne and Liberty. A castle siege occurs when guilds and alliances fight for control over a specific castle in the game. The rewards from these sieges are based on a combination of taxes collected from players and how well a guild performs during the Siege.
 
-Tax and Loot Collection:
-40% of Server Taxes: The main source of the siege rewards comes from the taxes collected across the server. 40% of the total taxes that players have paid during a specific period are allocated to the Siege Reward pool.
+**Tax and Loot Collection:** 40% of Server Taxes: The main source of the siege rewards comes from the taxes collected across the server. 40% of the total taxes that players have paid during a specific period are allocated to the Siege Reward pool.
 
-Siege Vault and Pillage Points:
-Once the Siege is initiated, 50% of the 40% tax collected is placed into the Siege Vault, while the other 50% is divided among five Pillage Points within the castle. Each Pillage Point holds 10% of the total Siege Reward, which is distributed to the victorious guilds.
+**Siege Vault and Pillage Points:** Once the Siege is initiated, 50% of the 40% tax collected is placed into the Siege Vault, while the other 50% is divided among five Pillage Points within the castle. Each Pillage Point holds 10% of the total Siege Reward, which is distributed to the victorious guilds.
 
-How Siege Rewards Are Distributed:
+## How Siege Rewards Are Distributed
+
 After a siege concludes, the winning guild (or alliance) collects the rewards based on the following distribution:
 
-Siege Vault: The guild or alliance that successfully takes control of the castle will receive the 50% of the 40% tax that was placed in the Siege Vault.
+**Siege Vault:** The guild or alliance that successfully takes control of the castle will receive the 50% of the 40% tax that was placed in the Siege Vault.
 
-Pillage Points: These are the points within the castle that can be “pillaged.” Every 5 minutes during the 45-minute Siege, guilds can capture a Pillage Point. The rewards from these Pillage Points are added directly to the guild's vault.
+**Pillage Points:** These are the points within the castle that can be “pillaged.” Every 5 minutes during the 45-minute Siege, guilds can capture a Pillage Point. The rewards from these Pillage Points are added directly to the guild's vault.
 
-Tax Deductions: Before the loot is distributed among the guild members, a 20% tax is deducted from the total amount, meaning the final loot payout is reduced by this amount.
+**Tax Deductions:** Before the loot is distributed among the guild members, a 20% tax is deducted from the total amount, meaning the final loot payout is reduced by this amount.
 
-Player Distribution: After the tax deduction, the loot is divided among the members of the winning guilds and alliances. This means that a guild with more members may have to split the rewards more ways, reducing the individual payout.
+**Player Distribution:** After the tax deduction, the loot is divided among the members of the winning guilds and alliances. This means that a guild with more members may have to split the rewards more ways, reducing the individual payout.
 
-Siege Duration and Pillage Mechanics:
+## Siege Duration and Pillage Mechanics
+
 The Siege lasts for 45 minutes, and pillaging happens in waves. After every 5 minutes, a new cycle of pillaging occurs, allowing guilds to capture Pillage Points. However, guilds don't need to hold these points for the full 5 minutes—only for the brief moment when the tick happens. The pillage is a fast-paced mechanic that rewards quick, strategic gameplay.
 
-Pillage Distribution: There are 5 Pillage Points in total. Each point represents 10% of the total loot, and it’s crucial for guilds to capture and hold these points as often as possible to maximize their share of the loot.
+**Pillage Distribution:** There are 5 Pillage Points in total. Each point represents 10% of the total loot, and it’s crucial for guilds to capture and hold these points as often as possible to maximize their share of the loot.
 
-Timeframe: The pillage process happens in waves, with 7 total ticks over the course of 35 minutes, after which no more loot can be pillaged.
+**Timeframe:** The pillage process happens in waves, with 7 total ticks over the course of 35 minutes, after which no more loot can be pillaged.
 
-Siege Reward Calculation Example
-To put the system into perspective, let’s break down a typical Siege reward calculation.
-Imagine the server has 4 million Solent (the in-game currency). Here’s how the reward is calculated:
+## Strategies for Maximizing Siege Rewards
 
-Total Tax Collected: 40% of 4 million = 1.6 million Solent.
-Siege Vault and Pillage Points: 50% of that 1.6 million goes into the Siege Vault, and the other 50% is allocated to the Pillage Points.
-Siege Vault: 800,000 Solent.
-Pillage Points: 800,000 Solent (distributed across five points).
-Pillage Redistribution: After the 20% tax on the loot, the remaining Solent is split. For example, if your guild captures 50% of the loot, you’ll get 400,000 Solent from the Siege Vault.
-Member Share: If your guild has 70 members, the reward of 400,000 Solent is divided among them, giving each member about 5,714 Solent.
-This is a simplified example, but it demonstrates how the Siege reward distribution system works. Larger guilds or alliances that can secure more Pillage Points or successfully control the Siege Vault will earn a larger share of the loot.
-
-Strategies for Maximizing Siege Rewards
 Here are a few strategies to help guilds maximize their rewards during sieges:
+
 - While controlling the castle is important, it’s crucial to focus on securing Pillage Points throughout the siege. Each Pillage Point is worth 10% of the loot, so capturing and holding these points is essential for maximizing your reward.
+
 - Timing the capture of Pillage Points is crucial. Since the points only “tick” every 5 minutes, make sure your guild is ready to move in at the right moment. Quick action is required to capture points before enemy guilds do.
+
 - Large alliances will have the advantage in sieges, as they can split the loot among their members. Guilds in the same alliance should work together to dominate the battlefield and take control of the castle and Pillage Points.
+
 - While attacking the Pillage Points is important, defending the Siege Vault is also a priority. This vault holds 50% of the tax loot, so ensure that your guild controls the castle and prevents enemy guilds from accessing the vault.
 
-Frequently Asked Questions (FAQ)
+Siege rewards in Throne and Liberty offer a dynamic and strategic element to the game. By focusing on controlling Pillage Points, defending the Siege Vault, and collaborating with allies, guilds can maximize their rewards. While the loot may not always be vast, the Siege system is designed to provide fair distribution based on effort and coordination. Whether you’re part of a massive alliance or a smaller guild, Siege rewards add an exciting layer of competition and strategy to Throne and Liberty.
+
+### **Frequently Asked Questions (FAQ)**
 
 1. How are Siege Rewards calculated?
 Siege rewards are based on 40% of the total taxes collected on a server. Half of this amount goes into the Siege Vault, while the other half is split across the Pillage Points. After the siege ends, guilds can access these rewards by capturing and holding Pillage Points, with a 20% tax deducted before final distribution.
@@ -63,9 +59,3 @@ While the main rewards are given to the winning guilds or alliances, there are o
 
 6. Are there any strategies for smaller guilds to succeed in Siege?
 Smaller guilds can succeed in Sieges by focusing on capturing Pillage Points rather than trying to take control of the castle. Quick, strategic action can help smaller guilds earn loot without competing directly with larger guilds for control of the castle.
-
-Siege rewards in Throne and Liberty offer a dynamic and strategic element to the game. By focusing on controlling Pillage Points, defending the Siege Vault, and collaborating with allies, guilds can maximize their rewards. While the loot may not always be vast, the Siege system is designed to provide fair distribution based on effort and coordination. Whether you’re part of a massive alliance or a smaller guild, Siege rewards add an exciting layer of competition and strategy to Throne and Liberty.
-
-If you find this article helpful and believe it adds value to your game experience, please consider placing an order to support MMOJUGG. With the best price and top service, we're guaranteed to serve you well. Your support is our greatest motivation! We greatly appreciate; 
-
-Upgrade Your Gear & Traits for the Upcoming Tier 2 Raid and PvP Arena Season 1 Success! As the Tier 2 raid and PvP Arena Season 1 are launching soon, there are only a few weeks to gear up to stay ahead quickly. MMOJUGG offers unbelievable prices on TL Lucent! Thousands of players are already using MMOJUGG to boost their in-game experience with fast, reliable delivery. Do Not miss out on the easiest way to dominate. 
