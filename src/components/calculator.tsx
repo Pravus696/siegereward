@@ -51,14 +51,15 @@ export default function Calculator() {
           <br></br>
           <input
             type="number"
-            value={totalLucent}
-            onChange={(e) => setTotalLucent(Number(e.target.value))}
-          />
-          <input
-            type="number"
             value={totalSollant}
             onChange={(e) => setTotalSollant(Number(e.target.value))}
           />
+          <input
+            type="number"
+            value={totalLucent}
+            onChange={(e) => setTotalLucent(Number(e.target.value))}
+          />
+
           <br></br>
           <br></br>
           <button
