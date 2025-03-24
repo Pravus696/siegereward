@@ -1,32 +1,24 @@
-import React from 'react';
+import React from "react";
 //  { useState } from 'react';
-// import title from './components/title';
+import Header from "./components/header";
 // import guild from './components/guild';
 import "./App.css";
-import Calculator from './components/calculator';
-
+import Calculator from "./components/calculator";
 
 const App = () => {
-    return (
-    <><header id="header">
-        <h1>Siege Pillage Stone Reward Breakdown</h1>
+  return (
+    <>
+      <Header />
+      <Calculator />
+
+      <footer id="footer">
         <p>
-            This site is intended to allow you to enter the collected taxes on your
-            server and breakdown the amount each pillage point will hold/reward at
-            each interval.
+          This page was created by Pravus. It is not affiliated with the
+          official game in any way.
         </p>
-    </header>
-    <main>
-            <Calculator />
-        </main>
-        <footer id="footer">
-            <p>
-                This page was created by Pravus. It is not affiliated with the official
-                game in any way.
-            </p>
-        </footer>
-        </>
-    );    
-}
+      </footer>
+    </>
+  );
+};
 
 export default App;
